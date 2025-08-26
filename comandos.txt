@@ -1,0 +1,101 @@
+  995  code .
+  996  git status
+  997  git log --oneline
+  998  clear
+  999  code .
+ 1000  code .
+ 1001  echo ".env"
+ 1002  echo ".env" >> .gitignore
+ 1003  git add .
+ 1004  git commit -m "Update gitignore file"
+ 1005  clear
+ 1006  git log --oneline
+ 1007  git diff
+ 1008  git diff
+ 1009  git add Main.js
+ 1010  git diff
+ 1011  git diff --staged
+ 1012  git log --oneline
+ 1013  clear
+ 1014  git commit -am "Add log fuction"
+ 1015  git commit -m "Add logMessage function" --amend
+ 1016  git log --oneline
+ 1017  git add .
+ 1018  git commit -m "Add logMessage function" --amend
+ 1019  git log --oneline
+ 1020  git commit -am "Add Fibonacci function"
+ 1021  git log --oneline
+ 1022  git reset HEAD~1 --soft
+ 1023  git log --oneline
+ 1024  git commit -am "Add Fibonacci function with validation"
+ 1025  git log --oneline
+ 1026  git reset HEAD~2 --hard
+ 1027  git log --oneline
+ 1028  git checkout 8c33cc3
+ 1029  git log --oneline
+ 1030  git checkout main
+ 1031  git checkout 8c33cc3
+ 1032  git checkout master
+ 1033  git checkout main
+ 1034  git checkout .
+ 1035  git log --oneline
+ 1036  git tag v0.2.0
+ 1037  git log --oneline
+ 1038  git tag -a v0.1.0 -m "Add tag 0.1.0" 3f5951d
+ 1039  git log --oneline
+ 1040  git checkout v0.1.0
+ 1041  git checkout v0.2.0
+ 1042  git checkout main
+ 1043  git log --oneline
+ 1044  git show v0.1.0
+ 1045  git tag -d v0.1.0
+ 1046  git log --oneline
+ 1047  git reflog
+ 1048  git branch
+ 1049  git branch -m master
+ 1050  git branch -m main
+ 1051  git checkout -b dev
+ 1052  git checkout -b feature/fibonacci
+ 1053  git branch
+ 1054  git commit -am "Add Fibonacci function"
+ 1055  git checkout main
+ 1056  git checkout dev
+ 1057  git branch
+ 1058  git merge feature/fibonacci
+ 1059  git branch
+ 1060  git checkout feature/fibonacci
+ 1061  git checkout dev
+ 1062  git branch -d feature/fibonacci
+ 1063  git branch
+ 1064  git checkout main
+ 1065  git merge dev
+ 1066  git branch -d dev
+ 1067  git checkout -b dev
+ 1068  git checkout -b feature
+ 1069  git checkout main
+ 1070  git checkout feature
+ 1071  git stash
+ 1072  git checkout main
+ 1073  git checkout -b quickfix
+ 1074  git commit -am "Add message in Fibonacci"
+ 1075  git checkout main
+ 1076  git merge quickfix
+ 1077  git branch
+ 1078  git branch -d quickfix
+ 1079  git branch
+ 1080  git checkout feature
+ 1081  git rebase main
+ 1082  git stash list
+ 1083  git stash apply 0
+ 1084  git stash list
+ 1085  git stash drop
+ 1086  git commit -am "Add factorial function"
+ 1087  git checkout dev
+ 1088  git rebase main
+ 1089  git merge feature
+ 1090  git branch
+ 1091  git branch -d feature
+ 1092  git checkout main
+ 1093  git merge dev
+ 1094  git branch -d dev
+ 1095  git branch
