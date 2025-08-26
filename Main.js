@@ -21,4 +21,4 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 
-console.log("Factorial of 5:", factorial(5));
+console.log("Factorial of 10:", factorial(10));
