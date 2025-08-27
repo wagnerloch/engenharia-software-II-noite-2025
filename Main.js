@@ -11,7 +11,7 @@ function fibonacci(n) {
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-fibonacci(5);
+fibonacci(10);
 
 console.log("Fibonacci of 5:", fibonacci(5));
 
